@@ -1,0 +1,142 @@
+
+
+<style type="text/css">
+#head1{color: Black}
+#head1{text-decoration: underline;}
+body{background-color: Grey}
+li{font-style: italic;}
+a{color: Purple}
+.favList{
+  font-size: 22px
+}
+.favList{
+  color: Purple
+}
+#head4{color: Purple}
+#head5{Color: Purple}
+
+#Container{
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  overflow: auto;
+  background-color: #D3D3D3;
+  border: Dashed;
+  text-align: center;
+  max-width: 80%;
+  max-height: fit-content;
+  margin:0 auto;
+  margin-left: 10%;
+  padding: 10px;
+  border: solid Purple 5px;
+  display: inline-block;
+vertical-align: top;
+width: 75%;
+}
+
+#Nav{
+  float:left;
+  background-color: #D3D3D3;
+  border: Dashed black;
+  text-align: center;
+  max-width: 50%; height: 232px;
+  margin: 2px;
+  padding: 10px;
+  display: inline-block;
+vertical-align: top;
+width: 25%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Section{
+  border: Dashed black;
+  margin: 2px;
+}
+
+.LI{
+  border: Dashed black;
+  margin: 2px;
+}
+
+.body{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#simple {
+  font: black;
+  overflow: auto;
+  font-style: italic;
+  font-size: 16px;
+  background-color: #D3D3D3;
+  border: Dashed;
+  text-align: center;
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  border: Solid Purple 5px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.gerbil{
+  font: black;
+  font-style: italic;
+  font-size: 16px;
+  float: right;
+  width: 50%;
+  margin: 10px;
+}
+
+.Box{
+  background-color: #D3D3D3;
+  border: Dashed;
+  text-align: center;
+  max-width: 50%;
+  max-height: fit-content;
+  margin: 20px auto;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+
+  form{
+    bottom: 100px;
+    background-color: #D3D3D3;
+    border: Dashed;
+    text-align: center;
+    width: 300px; max-height: fit-content;
+    margin-left:100px;
+    padding: 5px;
+    border: solid Purple 5px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    position: fixed;
+  }
+  input[type=button] {
+    color: Black;
+    background-color: Grey;
+    padding: 5px;
+  }
+  input[type=button]:hover{
+    border:solid;
+    background-color: Purple;
+  }
+  input[type=text]:focus {
+    background-color: White;
+    color: Black;
+    width: 100%;
+    transition:2s;
+  }
+</style>
