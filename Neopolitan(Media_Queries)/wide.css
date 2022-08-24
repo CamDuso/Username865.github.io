@@ -1,0 +1,70 @@
+body{
+    background-color:peru;
+    color:blue;
+    font-family:cursive;
+}
+.parentContainer{
+    border:solid blue;
+    height:32vh;
+    width:100%;
+    display:flex;
+
+}
+.luigi{
+    width:250px;
+    height:100%;
+    border:solid white;
+}
+.luigiText{
+    font-size:65px;
+}
+.textBox{
+    display:flex;
+    padding:15px;
+}
+.coin{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    margin:75px;
+}
+.coin:hover{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    margin:75px;
+    border:solid blue;
+    border-width:12px;
+}
+.midContainer{
+    height: 55vh;
+    margin-top: 0%;
+    margin-left: 15%;
+}
+.morn{
+    width: 80%;
+    display: block;
+}
+.noon{
+    width: 100%;
+    display: none;
+}
+.night{
+    width: 100%;
+    display: none;
+}
+.mtext{
+    display: block;
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+}
+.ntext{
+    display: none;
+}
+.ngtext{
+    display: none;
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+}

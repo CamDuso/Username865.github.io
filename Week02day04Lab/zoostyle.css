@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: slategray;
+}
+
+
+.bigCats{
+    border: dotted black;
+    margin: 10px;
+    width: fit-content;
+    margin-left: 25%;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bigCats:hover{
+    border: dotted black;
+    margin: 10px;
+    width: fit-content;
+    margin-left: 25%;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.fish{
+    border: dotted black;
+    border-width: 2px;
+    margin: 10px;
+    width: fit-content;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.reptiles{
+    border: dotted black;
+    margin: 10px;
+    margin-left: 25%;
+    width: fit-content;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.squirrels{
+    border: dotted black;
+    margin: 10px;
+    border-width: 2px;
+    width: fit-content;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.animal{
+    width: 200px;
+    height: 200px;
+}
+.animal:hover{
+    transform: scale(1.05);
+    transition: 250ms;
+    border: solid black;
+}

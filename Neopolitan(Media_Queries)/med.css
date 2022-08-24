@@ -1,0 +1,63 @@
+body{
+    background-color:lightblue;
+    color:salmon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.parentContainer{
+    border:solid salmon;
+    height:32vh;
+    width:100%;
+    
+
+}
+.luigiText{
+    font-size:42px;
+    margin:50px;
+}
+.luigi{
+    width:270px;
+    height:100%;
+    border:solid white;
+}
+.textBox{
+    display:flex;
+    padding:15px;
+}
+.coin{
+    display:none;
+    height:90px;
+    width:90px;
+    border-radius:50%;
+}
+.midContainer{
+    height: 57vh;
+    margin-top: 0%;
+}
+.morn{
+    width: 100%;
+    display: none;
+}
+.noon{
+    width: 70%;
+    display: block;
+    margin-left: 10%;
+}
+.night{
+    width: 100%;
+    display: none;
+}
+.mtext{
+    display: none;
+}
+.ntext{
+    display: block;
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+}
+.ngtext{
+    display: none;
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+}
