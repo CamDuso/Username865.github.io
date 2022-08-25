@@ -21,53 +21,68 @@ body{
     margin-left: 5%;
     margin-top: 5vh;
 }
-#largeImageOne{
+.ImageOne{
     border: solid black;
     width: 30%;
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: 3%;
+
+}
+.ImageTwo{
+    border: solid black;
+    width: 30%;
+
+}
+.ImageThree{
+    border: solid black;
+    width: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
 }
 .ingOne{
     width: 100%;
     height: 100%;
     display: none;
 }
-.rogueOne{
-
-}
-.gladOne{
-    display: none;
-}
-#largeImageTwo{
-    border: solid black;
-    width: 30%;
-}
 .ingTwo{
     width: 100%;
     height: 100%;
     display: none;
-}
-.rogueTwo{
-
-}
-.gladTwo{
-    display: none;
-}
-#largeImageThree{
-    border: solid black;
-    width: 30%;
-    margin-top: 3%;
-    margin-bottom: 3%;
 }
 .ingThree{
     width: 100%;
     height: 100%;
     display: none;
 }
+.rogueOne{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.rogueTwo{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .rogueThree{
-
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.gladOne{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.gladTwo{
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 .gladThree{
+    width: 100%;
+    height: 100%;
     display: none;
 }
