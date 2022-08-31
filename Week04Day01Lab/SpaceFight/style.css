@@ -1,0 +1,32 @@
+.playSpace{
+    margin-top: 3%;
+    border: solid black;
+    background-color: rgba(5, 4, 34, 0.814);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.uss{
+    border: solid slategray;
+    width: 25%;
+    height: 100%;
+}
+.alien{
+    border: solid lightgreen;
+    width: 25%;
+    height: 100%;
+}
+.attackButton{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.buttons{
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}

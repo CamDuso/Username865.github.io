@@ -3,30 +3,48 @@ body{
     text-align: center;
 }
 .mainContainer{
-    border: solid black;
     height: 85vh;
 }
 .imageContainer{
-    border: solid white;
+
     height: 60%;
     width: 90%;
     margin-left: 5%;
     display: flex;
-    justify-content: space-between;
 }
-.movieDescription{
+.descriptionContainer{
     border: solid white;
-    height: 30%;
     width: 90%;
+    height: 35%;
     margin-left: 5%;
-    margin-top: 5vh;
+    margin-top: 2vh;
+    border-radius: 20px;
+    padding: 3px;
+}
+.descriptionSmall{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    display: none;
+}
+.descriptionMedium{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    display: block;
+}
+.descriptionLarge{
+    display: block;
+    font-size: 15px;
+    display: none;
 }
 .ImageOne{
     border: solid black;
-    width: 30%;
+    width: 35%;
     margin-top: 3%;
     margin-bottom: 3%;
-    margin-left: 3%;
+    margin-left: 0%;
+    margin-right: 1%;
 
 }
 .ImageTwo{
@@ -36,9 +54,11 @@ body{
 }
 .ImageThree{
     border: solid black;
-    width: 30%;
+    width: 38%;
     margin-top: 3%;
     margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 0%;
 
 }
 .ingOne{

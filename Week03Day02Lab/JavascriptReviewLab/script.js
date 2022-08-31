@@ -279,51 +279,57 @@
         
     // printLongestWord(["PeanutBatter", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd",])
 
-//OBJECTS
-    //A. Make a User Object
-    // const user = {
-    //     name: 'Cam',
-    //     email: 'camduso8@gmail.com',
-    //     age: 28,
-    //     purchased: []
-    // }
+// OBJECTS
+    // A. Make a User Object
+    const user = {
+        name: 'cam',
+        email: 'camduso8@gmail.com',
+        age: 28,
+        purchased: []
+    }
 
-    // user.email = 'camduso9@gmail.com'
-    // user.age++
+    user.email = 'camduso9@gmail.com'
+    user.age++
 
-    // user.purchased.push('Carbohydrates')
-    // user.purchased.push('Peace of Mind')
-    // user.purchased.push('Merino Jodhpurs')
+    user.purchased.push('Carbohydrates')
+    user.purchased.push('Peace of Mind')
+    user.purchased.push('Merino Jodhpurs')
     // console.log(user.purchased[2])
 
-    // user.friend = {
-    //     name: 'Grace Hopper',
-    //     age: 85,
-    //     location: 'Mars',
-    //     purchased: [],
-    // }
+    user.friend = {
+        name: 'Grace Hopper',
+        age: 85,
+        location: 'Mars',
+        purchased: [],
+    }
     
     // console.log (user)
     // console.log (user.friend.name)
     // console.log (user.friend.location)
-    // user.friend.age = 55
-    // user.friend.purchased.push('The One Ring', 'A Latte',)
+    user.friend.age = 55
+    user.friend.purchased.push('The One Ring', 'A Latte',)
     // console.log (user.friend.purchased[1])
 
-    // for(let i = 0; i < user.purchased.length; i++){
-    //     console.log(user.purchased)
-    // }
+    for(let i = 0; i < user.purchased.length; i++){
+        // console.log(user.purchased)
+    }
     
-    // for(let i = 0; i < user.friend.purchased.length; i++){
-    //     console.log(user.friend.purchased)
-    // }
+    for(let i = 0; i < user.friend.purchased.length; i++){
+        // console.log(user.friend.purchased)
+    }
     // function updateUser(){
     //     user.age++
+    //     let capitalizedName = user.name[0].toUpperCase()
+    //     let modName = user.name.substring(1)
+    //     user.name = capitalizedName.concat (modName)
     // }
     // updateUser()
 
-    // function oldAndLoud(){
-    //     user = person
-    //     person.age++
-    // }
-    // oldAndLoud()
+    function oldAndLoud(person){
+        person.age++
+        let capitalizedName = person.name[0].toUpperCase()
+        let modName = person.name.substring(1)
+        person.name = capitalizedName.concat (modName)
+    }
+    oldAndLoud(user)
+    console.log(user)

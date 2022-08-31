@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color:lemonchiffon;
+}
+
+.navContainer{
+    /* border:solid lime; */
+    /* height:12vh; */
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.navTabs{
+    color:white;
+    font-size:21px;
+
+}
+.navTabs:hover{
+    color:lemonchiffon;
+    font-size:21px;
+
+}
+.mainImg{
+    width:100%;
+    margin:1em;
+}
+.themeContainer{
+    border:solid green;
+    display: flex;
+    justify-content: space-around;
+
+}
+.themeChanger{
+    border:solid white;
+    height:90px;
+    width:90px;
+    border-radius:50%;
+}
+.valentine,.stPat,.xmas{
+    height:100%;
+    border-radius:50%;
+}
