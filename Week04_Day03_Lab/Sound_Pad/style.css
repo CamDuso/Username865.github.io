@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+.soundTable {
+    border: solid salmon;
+    height: fit-content;
+    /* background-image: url('https://3kie2h2bv1982onocv7b5lbz-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Akai_mpd218-top.jpg%27'); */
+    /* background-size: cover; */
+    width: fit-content;
+    margin-left: 37%;
+}
+
+.row {
+    /* border: solid green; */
+    margin: 1em;
+    display: flex;
+}
+
+.beatPad {
+    border: solid orange;
+    background-color: lightgray;
+    width: 90px;
+    height: 90px;
+    margin-left: 12px;
+    border-radius: 12px;
+}
+
+.beatPad:hover {
+    border: solid orange;
+    background-color: darkgray;
+    width: 90px;
+    height: 90px;
+    margin-left: 12px;
+} 

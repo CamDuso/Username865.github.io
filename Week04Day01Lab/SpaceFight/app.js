@@ -2,7 +2,6 @@ const Ship = {
   shiphull: "20",
   shipfirepower: "5",
   shipaccuracy: ".7",
-  shipdefense: ".7"
   // Methods
   // Ex: USSHelloWorld.attack(alienTeam[0])
   // Shoot/Attack Method (Parameter(enemy))
@@ -40,17 +39,17 @@ class alienShip {
 // DOM functionality
 // button that makes either player or enemy attack (two buttons probably)
 
-let hull = Math.floor((Math.random() * 6) + 3);
-let firepower = Math.floor((Math.random() * 4) + 2);
-let accuracy = Math.floor((Math.random() * .8) + .5);
-// let defense = Math.floor((Math.random() * .5) + .7);
+let alien1 = new alienShip( Math.floor((Math.random() * 6) + 3) , Math.floor((Math.random() * 3) + 1) , Math.floor((Math.random() * .8) + .5) );
 
-let alien1 = new alienShip(4, 3, .7,);
-let alien2 = new alienShip(4, 2, .6,);
-let alien3 = new alienShip(4, 4, .6,);
-let alien4 = new alienShip(4, 3, .6,);
-let alien5 = new alienShip(4, 2, .7,);
-let alien6 = new alienShip(4, 2, .7,);
+let alien2 = new alienShip( Math.floor((Math.random() * 6) + 3) , Math.floor((Math.random() * 3) + 1) , Math.floor((Math.random() * .8) + .5) );
+
+let alien3 = new alienShip( Math.floor((Math.random() * 6) + 3) , Math.floor((Math.random() * 3) + 1) , Math.floor((Math.random() * .8) + .5) );
+
+let alien4 = new alienShip( Math.floor((Math.random() * 6) + 3) , Math.floor((Math.random() * 3) + 1) , Math.floor((Math.random() * .8) + .5) );
+
+let alien5 = new alienShip( Math.floor((Math.random() * 6) + 3) , Math.floor((Math.random() * 3) + 1) , Math.floor((Math.random() * .8) + .5) );
+
+let alien6 = new alienShip( Math.floor((Math.random() * 6) + 3) , Math.floor((Math.random() * 3) + 1) , Math.floor((Math.random() * .8) + .5) );
 
 let alienTeam = [alien1, alien2, alien3, alien4, alien5, alien6];
 
@@ -58,7 +57,11 @@ function attackAlien() {
     if (Ship.shiphull <= 0){
         console.log ('Game Over')
         return
-    }  
+    } 
+    if (alienTeam.length <= 0){
+      console.log("Play Again.")
+      return
+    } 
   if (Math.random() >= alienTeam[0].accuracy) {
     console.log("HIT, you deal " + Ship.shipfirepower + " damage to the enemy.");
     alienTeam[0].hull -= Ship.shipfirepower;
@@ -82,7 +85,7 @@ function attackAlien() {
 }
 
 function attackShip() {
-    if (Ship.hull <=0){
+    if (Ship.shiphull <=0){
         console.log ('Game Over')
         return
     }
@@ -104,10 +107,14 @@ function attackShip() {
 }
 
 function runAway(){
-    if (Ship.shiphull <=0){
-        console.log ('Game Over')
+  if (Ship.shiphull <=0){
+    console.log ('Game Over')
+    return
+}
+    if (Ship.shiphull > 0){
+      console.log("You run away, leaving Earth defenseless")
+      console.log ("GAME OVER")
         return
     }
-    console.log("You run away, leaving Earth defenseless")
-    console.log ("GAME OVER")
+
 }
