@@ -46,8 +46,8 @@ const radio = {
   changeStation() {
     station = Math.floor(Math.random() * 2);
     song = Math.floor(Math.random() * 4);
-    selection = radio.stations[station].songs[song];
-    console.log("Now Playing " + selection.title + " by " + selection.artist);
+    playing = radio.stations[station].songs[song];
+    console.log("Now Playing " + playing.title + " by " + playing.artist);
   },
 };
 radio.changeStation();
