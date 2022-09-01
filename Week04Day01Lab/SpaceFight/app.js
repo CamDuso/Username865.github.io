@@ -43,14 +43,14 @@ class alienShip {
 let hull = Math.floor((Math.random() * 6) + 3);
 let firepower = Math.floor((Math.random() * 4) + 2);
 let accuracy = Math.floor((Math.random() * .8) + .5);
-let defense = Math.floor((Math.random() * .5) + .7);
+// let defense = Math.floor((Math.random() * .5) + .7);
 
-let alien1 = new alienShip(hull, firepower, accuracy, defense);
-let alien2 = new alienShip(hull, firepower, accuracy, defense);
-let alien3 = new alienShip(hull, firepower, accuracy, defense);
-let alien4 = new alienShip(hull, firepower, accuracy, defense);
-let alien5 = new alienShip(hull, firepower, accuracy, defense);
-let alien6 = new alienShip(hull, firepower, accuracy, defense);
+let alien1 = new alienShip(4, 3, .7,);
+let alien2 = new alienShip(4, 2, .6,);
+let alien3 = new alienShip(4, 4, .6,);
+let alien4 = new alienShip(4, 3, .6,);
+let alien5 = new alienShip(4, 2, .7,);
+let alien6 = new alienShip(4, 2, .7,);
 
 let alienTeam = [alien1, alien2, alien3, alien4, alien5, alien6];
 
@@ -59,7 +59,7 @@ function attackAlien() {
         console.log ('Game Over')
         return
     }  
-  if (Ship.shipaccuracy >= alienTeam[0].defense) {
+  if (Math.random() >= alienTeam[0].accuracy) {
     console.log("HIT, you deal " + Ship.shipfirepower + " damage to the enemy.");
     alienTeam[0].hull -= Ship.shipfirepower;
 
@@ -82,16 +82,16 @@ function attackAlien() {
 }
 
 function attackShip() {
-    if (Ship.hull <=0){
+    if (Ship.shiphull <=0){
         console.log ('Game Over')
         return
     }
   if (alienTeam.length > 0) {
-    if (alienShip.accuracy >= Ship.shipdefense) {
+    if (Math.random() >= Ship.shipaccuracy) {
       console.log("HIT, you take " + alienTeam[0].firepower + " damage.");
-      Ship.hull -= alienTeam[0].firepower;
+      Ship.shiphull -= alienTeam[0].firepower;
 
-      if (Ship.hull <= 0) {
+      if (Ship.shiphull <= 0) {
         console.log("You were destroyed, and Earth is DOOMED.");
       } else {
         console.log("You have " + Ship.shiphull + " health remaining");
