@@ -82,7 +82,7 @@ function attackAlien() {
 }
 
 function attackShip() {
-    if (Ship.shiphull <=0){
+    if (Ship.hull <=0){
         console.log ('Game Over')
         return
     }
