@@ -32,7 +32,7 @@ const changeTheme = () => {
 
 
 
-    // create changable content
+    // create changeable content
 
     // replace old with new 
 

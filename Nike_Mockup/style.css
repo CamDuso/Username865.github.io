@@ -1,0 +1,198 @@
+body{
+    height: 120vh;
+    background-color: white(167, 191, 215);
+}
+
+.navContainer{
+    height: 60px;
+    border-width: .2px;
+    display: flex
+}
+.nikeIcon{
+    height: 58px;
+    margin-left: 3px;
+    display: flex;
+}
+
+.smIcons{
+    margin-left: 69%;
+    justify-content: right;
+    max-width: 100%;    
+    text-align: right;
+    padding-top: 8px;
+    display: flex;
+    
+}                   
+.bcase{
+   height: 40px;
+   margin-bottom: 10px;
+   display: flex;
+}
+
+                   
+.bcase:hover{
+   height: 30px;
+   border: solid black;
+   border-radius: 50%;
+   border-width: 5px;
+   background-color: lightgrey;
+}
+
+.mglass{
+    height: 30px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    display: flex;
+}
+
+.mglass:hover{
+    height: 20px;
+    border: solid black;
+    border-radius: 50%;
+    border-width: 5px;
+    background-color: lightgrey;
+}
+
+.dropDown{
+    height: 32px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.topScroll{
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    font-weight: lighter;
+}
+
+.joiner{
+text-align: center;
+font-size: medium;
+background-color: rgb(241, 241, 241);
+font-display: black;
+border-bottom: solid lightgrey;
+border-width: 1px;
+}
+
+.mainPic{
+   max-width: 100%;
+   height: auto;
+   margin-left: 20px;
+margin-right: 0%;
+}
+
+.footWear{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footwearImages{
+    width: 100%;
+}
+
+.runningPic{
+    width: 45%;
+    height: auto;
+    padding: 5px;
+}
+             
+.runningPic2{
+   width: 45%;
+   height: auto;
+   padding: 5px;
+}
+.midTitle{
+    font: size 62px;
+}
+oneLiner{
+    font-size: 22px;
+}
+.btnShop{
+    border:solid black;
+    color: white;
+    background-color: black;
+    margin: 12px;
+    font-size: 32px;
+    width: 120px;
+    text-align: center;
+    border-radius: 22px;   
+}
+.btnShop:hover{
+        border:solid black;
+        color: white;
+        background-color: green;
+        margin: 12px;
+        font-size: 32px;
+        width: 120px;
+        text-align: center;
+        border-radius: 22px;
+}
+
+.btnExplore{
+    border:solid black;
+    color: white;
+    background-color: black;
+    margin: 12px;
+    font-size: 32px;
+    width: 120px;
+    text-align: center;
+    border-radius: 22px;   
+}
+
+.btnExplore:hover{
+    border:solid black;
+    color: white;
+    background-color: green;
+    margin: 12px;
+    font-size: 32px;
+    width: 120px;
+    text-align: center;
+    border-radius: 22px;
+}
+
+
+.btnContainer{
+    display: flex;
+}
+
+/* DONT FUCKING FORGET DISPLAY FLEX AND JUSTIFY CONTENT. DONT FORGET IT. */
+.themeContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.themeTab:hover{
+    color: green;
+}
+.sneakerContainer{
+    /* border:solid red; */
+    height: 70vh;
+    margin: 6px;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sneakerBox{
+    border:solid black;
+    width: 250px;
+    height: fit-content;
+    background-color: grey;
+    margin: 12px;
+}
+.sneakerBox:hover{
+    border:solid grey;
+    margin: 12px;
+    width: 250px;
+    background-color: grey;
+    border-width: 5px;
+}
+.sneakerInfo{
+    border:solid lemonchiffon;
+    height: 80px;
+    text-align: center;
+    background-color: slategray;
+    color: lemonchiffon;
+}
+.shoe{
+    width: 100%;
+}

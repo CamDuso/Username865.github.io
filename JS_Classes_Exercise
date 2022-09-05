@@ -1,0 +1,105 @@
+
+
+
+// class Cat{
+//     constructor(furColor, favoriteFood, hoursSlept){
+//         this.legs = 4
+//         this.furColor = furColor
+//         this.favoriteFood = favoriteFood
+//         this.hoursSlept = hoursSlept
+//     }
+//     nap() {
+//         console.log('kitty is taking a nap...')
+//     }
+//     foundANewToy(newToy){
+//         this.newToy = newToy
+//     }
+//     hairBall(){
+//         this.hoursSlept--
+//     }
+// }
+// const Eddie = new Cat("Black", "Pizza", 16)
+// Eddie.nap()
+// Eddie.foundANewToy("String on a stick!")
+// Eddie.hairBall()
+// console.log(Eddie)
+
+// const Catrick = new Cat ("Bengal", "Tuna", 21)
+// Catrick.nap()
+// Catrick.foundANewToy("Bottle Cap...")
+// Catrick.hairBall()
+// console.log(Catrick)
+
+
+
+
+
+
+
+
+
+
+class Pirate{
+    constructor(name, numberLegs, numberEyes, canHear, canSee,){
+        this.name = name
+        this.numberLegs = numberLegs
+        this.numberEyes = numberEyes
+        this.canHear = canHear
+        this.canSee = canSee
+    }
+    punishmentPlank() {
+        this.punishment = this.name + ' will walk the plank!'
+    }
+    punishmentScrubtheDeck(){
+        this.punishment = this.name + ' will have to scrub the deck.'
+    }
+    punishmentAGoodLad(){
+        this.punishment = this.name + ' will get off scot-free...for now.'
+    }
+    badFight(){
+        this.numberLegs --
+    } 
+    hadGrog(){
+        this.canSee = false
+    }
+}
+
+let blackPearl = []
+
+const pirateOne = new Pirate ('PirateOne', 2, 1, true, "sort of",)
+pirateOne.punishmentPlank()
+
+const pirateTwo = new Pirate ('PirateTwo', 1, 0, false, true,)
+pirateTwo.hadGrog()
+
+const pirateThree = new Pirate ('PirateThree', 2, 2, true, true,)
+pirateThree.punishmentScrubtheDeck()
+
+blackPearl = [pirateOne, pirateTwo, pirateThree]
+
+for (let i = 0; i<blackPearl.length; i++){
+    console.log (blackPearl[i])
+}
+
+
+
+let jollyRoger = []
+
+const pirateFour = new Pirate ('PirateFour', 2, 1, false, true)
+pirateFour.hadGrog()
+pirateFour.punishmentAGoodLad()
+
+const pirateFive = new Pirate ('Terry', 1, 2, true, true)
+pirateFive.hadGrog()
+
+const pirateSix = new Pirate ('PirateSix', 2, 1, true, true)
+pirateSix.badFight()
+pirateSix.hadGrog()
+pirateSix.punishmentScrubtheDeck()
+
+jollyRoger = [pirateFour, pirateFive, pirateSix]
+
+for (let i = 0; i<jollyRoger.length; i++){
+    console.log (jollyRoger[i])
+}
+

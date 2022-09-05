@@ -1,0 +1,94 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headerBar{
+    height: 40px;
+    background-color: #818B77;
+    color: white;
+    display: flex;
+    flex-flow: row-reverse;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.littleTokyobike{
+    background-color: rgba(255, 255, 255, 0.751);
+    margin-top: 900px;
+    height: 200px;
+    display: flex;
+    flex-flow: wrap;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.picContainer{
+    border:solid white;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://github.com/Username865/tokyo_bikes/blob/master/assets/tokyobike-Oksana.jpg?raw=true');
+    height: 140vw;
+}
+.shopNowButton{
+    background-color: white;
+    opacity: 1;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 7px;
+    color: black;
+}
+.lineupContainer{
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 900px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.bikeContainer{
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+}
+.bikeImage{
+    width: 250px;  
+}
+.meet{
+    padding-top: 40px;
+    text-align: center;
+    background-color: #EEEEEE;;
+}
+.inside{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottomImages{
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+}
+.bImage{
+    width: 250px;
+    padding: 10px;
+}
+.imageText{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.seeMore{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid black;
+    border-width: 2px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 30px;
+    padding-top: 10px;   
+}
+#takeMeThere{
+    width: 140px;
+}

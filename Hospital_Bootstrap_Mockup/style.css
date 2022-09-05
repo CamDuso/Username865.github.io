@@ -1,0 +1,66 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.covidBar{
+    display: flex;
+    justify-content: center;
+    background-color:  #DBE442;
+    height: 45px;
+}
+.care{
+    border: solid #DBE442;
+    margin-top: .4%;
+    font-weight: bold;
+}
+.news{
+    border: solid #DBE442;
+    margin-top: .5%;
+}
+.col-6{
+    background-color: #F8F9FA;
+}
+.findDoctor.col{
+    background-color: #F8F9FA;
+    margin: 5px;
+}
+.mghLogo{
+    height: 90px;
+}
+#carouselExampleCaptions{
+    margin-left: 5%;
+    width: 50vw;
+    height: 50vh;
+}
+.recentStories{
+    background-color: #F8F9FA;
+    width: 30%;
+    height: 54%;
+    margin-left: 55%;
+    margin-right: 20%;
+    margin-top: -24.5%;
+    position: absolute;
+    text-align: center;
+}
+.newsTitle{
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.topLink{
+    color: black;
+    text-decoration: none;
+}
+.newsTitle{
+text-align: center;
+}
+.infoCards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.card{
+    background-color: #F8F9FA;
+}
